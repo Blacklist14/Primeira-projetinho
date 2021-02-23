@@ -1,0 +1,84 @@
+body{
+    background-color: #0011FC;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.conteiner{
+    margin: 0px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15vh 80vh 5vh;
+}
+#menu img{
+    text-align: center;
+    margin: 1px;
+    transition: all .6s;
+}
+header{
+    font-family: 'DotGothic16', sans-serif;
+    margin: 0;
+    padding: 0;
+    grid-column: 1/3;
+    background-color: #FCC800;
+    display: inline;
+}
+#menu ul li{
+    background-color: white;
+    display: inline;
+    height: 0px;
+    font-size: 25px;
+    margin:50px;
+    padding: 0px 1px 0px 1px;
+    border-radius: 30px;
+    transition: all .6s;
+}
+
+#menu ul li a:hover{
+    display: inline-block;
+    color: white;
+    padding: 2px 5px 3px 5px;
+    border-radius: 30px;
+    background-color: blue;
+    transition: all .6s;
+}
+
+main{
+    font-family: 'DotGothic16', sans-serif;
+    display: block;
+    grid-column: 1/3;
+    border: 3px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: all .7s;
+}
+h1{
+    color: white;
+    border: 3px solid;
+    padding: 0;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 30px;
+    transition: all .7s;
+}
+footer{ 
+    grid-column: 1/3;
+    background-color: #FCC800;
+}
+#roda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+#roda a{
+    margin: 10px;
+    transition: all  .9s;
+}
